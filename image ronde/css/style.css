@@ -1,0 +1,11 @@
+img:hover{
+overflow:hidden;
+    -webkit-border-radius:50px;
+    -moz-border-radius:50px;
+    border-radius:50px;
+    width:100px;
+    height:100px;
+    box-shadow: h-pos v-pos (blur) (spread) (color) (inset);
+
+    
+}

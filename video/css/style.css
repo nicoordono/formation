@@ -1,0 +1,28 @@
+.header-unit{	
+    top:0%;
+    left:0%;
+    height:100%;
+    width:100%;
+    overflow: hidden;
+    position:absolute;
+    background-size: cover;
+}
+video {	
+    position: fixed;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+}
+video.fillWidth {width: 100%;
+    min-height: 50%;}
+#video-container 
+{ top:0%;
+     left:0%;
+      height:100%;
+       width:100%;
+        overflow: hidden;
+         background-size:cover} 
+
+p{
+    text-align: center;
+}

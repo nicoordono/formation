@@ -1,0 +1,20 @@
+body
+{
+    background-color: blue;
+    border-color: blue 10px;
+}
+header{
+background-color: blue;
+height: 40%;
+}
+section
+{
+    height: 50%;
+    width: 100%;
+    background-color: blue;
+
+}
+footer{
+    background-color: navy;
+    padding: 40%;
+}

@@ -1,0 +1,19 @@
+form{
+    border-color:2;
+    
+
+    
+}
+input:focus{
+    border-color:  yellow;
+    box-shadow: 10px 5px 5px black;
+}
+  textarea:focus{
+    border-color: yellow;
+    box-shadow: 10px 5px 5px black;
+}
+input:valid{
+    border-color:  green;
+
+}
+  

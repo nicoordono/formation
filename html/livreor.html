@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="stylesheet" type="text/css" href="css/styleLivre.css">
+    <link rel="stylesheet" media="screen and (max-width: 700px)" href="resolution.css" type="text/css" />
+    <title> Au gourmet Pyrénéen </title>
+</head>
+<body>
+    <header>
+        <div>
+            <h1> Au gourmet Pyrénéen
+                <img src="images/montagne.png" /> </h1>
+        </div>
+
+
+    </header>
+    <!-- création d'une liste pour créer un menu responsive 
+        create a list in order to créate an responsive menu -->
+    <nav>
+        <ul>
+            <li class="menu">
+                <a href="#">menu</a>
+                <ul class="submenu">
+                    <li>
+                        <a href="acceuil.html">acceuil</a>
+                    </li>
+                    <li>
+                        <a href="recettes.html">recettes</a>
+                    </li>
+                    <li>
+                            <a href="carte.html">carte</a>
+                    </li>
+                    <li>
+                        <a href="adresse.html">adresse et contact</a>
+                    </li>
+                    <li>
+                    <a href="livreor.html">livre d'or</a> <!-- rajout d'une lien vers le livre d'or -->
+                    </li>
+                </ul>
+        </ul>
+    </nav> 
+        </div>
+        <form method="post" action="index.php" >
+            <h1> le livre d'or</h1>
+        <fieldset>
+        <label>"prenom" </label>
+        <input type="text" name="prenom" />
+        </fieldset>
+        <fieldset>
+        <label> "nom" </label>
+        <input type="text" name="nom" />
+        </fieldset>
+        <label> "email" </label>
+        <input type="email" name="email" placeholder="ex= nico@hotmail.fr" aria-placeholder="@" maxlimit="20"required  />
+        <label> commentaire </label>
+        <textarea name="commentaire" size="20000" row="6" aria-placeholder="un vrai commentaire" required  ></textarea>
+        <label> envoyer </label>
+        <input type="submit" name="envoyer"  />
+        </form>
+    </body>
+
+</html>

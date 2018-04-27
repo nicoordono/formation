@@ -1,0 +1,6 @@
+#scene1{
+    float: left;
+    text-align: left;
+    border: solid blue 1px;
+    column-count: 2;
+}

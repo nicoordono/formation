@@ -1,0 +1,43 @@
+body{
+    background-color: black;
+}
+table
+
+{
+
+    border-collapse: collapse;
+    border: 4;
+    margin: auto;
+    margin-top: 15%;
+    width: 50%;
+
+}
+
+td th{
+
+    border: 1px solid rgb(32, 32, 32);
+    color: white;
+}
+th{
+    text-align: center;
+    background-color: rgb(136, 132, 132);
+    width: auto;
+    }
+thead{
+    background-color: rgb(14, 11, 11);
+    width: 100px;
+    text-align: center;
+}
+
+tbody{
+    background-color: rgb(173, 170, 170);
+    text-align: center;
+    width: 100px;
+}
+tfoot{
+    background-color: rgb(14, 11, 11);
+    text-align: center;
+}
+h1{
+    text-align:center
+}
