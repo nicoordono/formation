@@ -1,0 +1,166 @@
+#conteneur{
+    width:110px;
+    height: 310px;
+    background-color: grey;
+    margin-left:200px;
+    margin: auto;
+    
+}
+
+#cercle1 { 
+    width: 100px; 
+    height: 100px; 
+    background: black;
+    -moz-border-radius: 50px;
+    -webkit-border-radius: 50px;
+    border-radius: 50px; 
+    margin-top: 5px;
+    animation-name: feurouge;
+    animation-duration: 5s;
+    animation-timing-function:ease;} 
+
+#cercle1:hover{
+    background: red;
+}
+
+        @keyframes feurouge{
+            from{
+                background: black;
+                
+            }
+           
+            to{
+                background:red;
+            }
+
+        }
+    
+        #cercle2 { 
+        width: 100px; 
+        height: 100px; 
+        background: black;
+        -moz-border-radius: 50px;
+        -webkit-border-radius: 50px;
+        border-radius: 50px; 
+        animation-name: feuorange;
+        animation-duration: 10s;
+        animation-delay: 16s ;}   
+        #cercle2:hover{
+            background: orange;
+        }
+        @keyframes feuorange{
+            from{
+                background:black;
+            }
+            to{
+                background: orange;
+            }
+        }
+
+        #cercle3 { 
+            width: 100px; 
+            height: 100px; 
+            background: black;
+            -moz-border-radius: 50px;
+            -webkit-border-radius: 50px;
+            border-radius: 50px;
+            animation-name: feuvert;
+            animation-duration: 10s; 
+            animation-delay: 6s ;
+                             }  
+            #cercle3:hover{
+                background: green;
+            }
+            @keyframes feuvert{
+                from{
+                    backround: black;
+                }
+                to{
+                    background: green;
+                }
+            }
+
+            #conteneur2{
+                width:110px;
+                height: 310px;
+                background-color: grey;
+                margin-left:200px;
+                margin: auto;
+                
+            }
+            
+            #cercle4 { 
+                width: 100px; 
+                height: 100px; 
+                background: black;
+                -moz-border-radius: 50px;
+                -webkit-border-radius: 50px;
+                border-radius: 50px; 
+                margin-top: 5px;
+                animation-name: feurouge;
+                animation-duration: 5s;
+                ;
+                animation-delay: 6s } 
+            
+            #cercle4:hover{
+                background: red;
+            }
+            
+                    @keyframes feurouge{
+                        from{
+                            background: black;
+                            
+                        }
+                       
+                        to{
+                            background:red;
+                        }
+            
+                    }
+                
+                    #cercle5 { 
+                    width: 100px; 
+                    height: 100px; 
+                    background: black;
+                    -moz-border-radius: 50px;
+                    -webkit-border-radius: 50px;
+                    border-radius: 50px; 
+                    animation-name: feuorange;
+                    animation-duration: 10s;
+                    animation-delay: 14s ;}   
+                    #cercle2:hover{
+                        background: orange;
+                    }
+                    @keyframes feuorange{
+                        from{
+                            background:black;
+                        }
+                        to{
+                            background: orange;
+                        }
+                    }
+            
+                    #cercle6 { 
+                        width: 100px; 
+                        height: 100px; 
+                        background: black;
+                        -moz-border-radius: 50px;
+                        -webkit-border-radius: 50px;
+                        border-radius: 50px;
+                        animation-name: feuvert;
+                        animation-duration: 10s; 
+                        animation-timing-function:ease;
+                                         }  
+                        #cercle6:hover{
+                            background: green;
+                        }
+                        @keyframes feuvert{
+                            from{
+                                backround: black;
+                            }
+                            to{
+                                background: green;
+                            }
+                        }
+            
+                  

@@ -1,0 +1,20 @@
+[
+{"type":"header","version":"4.7.9","comment":"Export to JSON plugin for PHPMyAdmin"},
+{"type":"database","name":"contrebande"},
+{"type":"table","name":"contrebandier","database":"contrebande","data":
+[
+{"id":"1","nom":"inconnus","prenom":"fugitifs","nationnalite":"inc","age":"inc","sexe":"inc","metier":"inc","domicile":"inc","complice":"inc","nb":"25"},
+{"id":"2","nom":"Jholay","prenom":"raymond","nationnalite":"fran\u00e7aise","age":"inc","sexe":"h","metier":"journalier","domicile":"saint etienne de baygorry","complice":"inc","nb":"1"},
+{"id":"3","nom":"Curutchat","prenom":"Bernard","nationnalite":"fran\u00e7aise","age":"inc","sexe":"h","metier":"journalier","domicile":"oses","complice":"inc","nb":"1"},
+{"id":"4","nom":"Caminondo","prenom":"Marie","nationnalite":"inc","age":"30,46","sexe":"f","metier":"inc","domicile":"inc","complice":"inc","nb":"2"},
+{"id":"5","nom":"Officialdeguy","prenom":"Bernard","nationnalite":"fran\u00e7aise","age":"55,65,68","sexe":"h","metier":"laboureur,ma\u00e7on,journalier","domicile":"Uhart-Cize, Osses, Lasse","complice":"inc","nb":"3"}
+]
+}
+,{"type":"table","name":"produits","database":"contrebande","data":
+[
+{"id":"1","nom":"animaux","quantite":"6"},
+{"id":"2","nom":"alcool","quantite":"1"},
+{"id":"3","nom":"denree","quantite":"3"}
+]
+}
+]
