@@ -1,0 +1,1 @@
+document.getElementsByClassName('active').style.color= "purple";

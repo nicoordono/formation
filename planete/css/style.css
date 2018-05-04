@@ -1,0 +1,24 @@
+
+#conteneur{
+    background-color: black;
+    height: 100%;
+    width: 100%;
+}
+#terre {
+    display: block;
+    background: blue;
+    border-radius: 50%;
+    height: 300px;
+    width: 300px;
+    margin: 0;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  #mars {
+    display: block;
+    background: rgb(97, 16, 16);
+    border-radius: 50%;
+    height: 300px;
+    width: 300px;
+    margin: 0;
+  }
