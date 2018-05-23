@@ -1,0 +1,10 @@
+#conteneur{
+    background-color: grey;
+    height: auto;
+    margin: auto;
+}
+#tete{
+    background-color: grey;
+    flex: center;
+    margin-right: 50%;
+}
