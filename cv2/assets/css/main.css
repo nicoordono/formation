@@ -22,6 +22,13 @@
 	article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
 		display: block;
 	}
+	#submit{
+		background-color:aquamarine;
+		color:black
+	}
+	#submit:hover{
+		color:red;
+	}
 	.progress-bar { 
 		width: 300px;
 		height: 30px;
@@ -39,8 +46,8 @@
 		content: '100%';
 		display: block;
 		/*position: absolute;*/
-		width: 300px;
-		height: 24px;
+		width: 295px;
+		height: 20px;
 		background: rgb(223, 67, 20);
 		border-radius: 12px;
 		-webkit-border-radius: 12px;
@@ -68,7 +75,7 @@
 		align-content: space-around;
 		display: block;
 		/*position: absolute;*/
-		width: 280px;
+		width: 260px;
 		height: 24px;
 		background: rgb(223, 67, 20);
 		border-radius: 12px;
@@ -95,7 +102,7 @@
 		content: '70%';
 		display: block;
 		position: absolute;
-		width: 260px;
+		width: 240px;
 		height: 24px;
 		background: rgb(223, 67, 20);
 		border-radius: 12px;
@@ -1811,7 +1818,6 @@
 		position: relative;
 		display: inline-block;
 		border: 0;
-		background: #35b88f;
 		color: #fff;
 		text-shadow: 0 0 0.5px rgba(255, 255, 255, 0.25);
 		cursor: pointer;
@@ -1820,7 +1826,11 @@
 		padding: 1em 3em 1em 3em;
 		text-align: center;
 		border-radius: 3em;
-		font-weight: 400;
+		font-weight: 600;
+	}
+	a button{
+		height: 30%;
+		width: 30%;
 	}
 
 		input[type="button"]:hover,
@@ -2041,8 +2051,7 @@
 
 	#header {
 		position: relative;
-		color: #fff;
-		text-shadow: 0 0 0.5px rgba(255, 255, 255, 0.25);
+		color: rgb(223, 67, 20);
 		text-align: center;
 		margin: 0;
 		padding: 14em 0 14em 0;
@@ -2111,6 +2120,48 @@
 /* Banner */
 
 	#banner {
+		position: relative;
+		color: #fff;
+		text-shadow: 0 0 0.5px rgba(255, 255, 255, 0.25);
+		text-align: center;
+		background: #35b88f url("images/banner.svg") bottom center no-repeat;
+		padding: 5em 0 5em 0;
+		margin: 0;
+		background-size: 125% auto;
+	}
+
+		#banner .button {
+			color: #35b882;
+			text-shadow: 0 0 0.5px rgba(53, 184, 130, 0.25);
+		}
+
+		#banner header {
+			margin: 0 0 2em 0;
+		}
+
+			#banner header h2 {
+				font-weight: 400;
+				font-size: 1.75em;
+				letter-spacing: 8px;
+			}
+
+		#banner p {
+			margin: 0;
+		}
+
+		#banner footer {
+			margin: 2em 0 0 0;
+		}
+
+		#banner a {
+			color: inherit;
+			border-bottom-color: rgba(255, 255, 255, 0.5);
+		}
+
+			#banner a:hover {
+				border-bottom-color: rgba(255, 255, 255, 0);
+			}
+				#banner {
 		position: relative;
 		color: #fff;
 		text-shadow: 0 0 0.5px rgba(255, 255, 255, 0.25);
