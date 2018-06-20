@@ -7,7 +7,7 @@
     <title>Document</title>
     <style>
         a{
-        display : flex;
+        display : inline-block;
         }
     </style>
 </head>
