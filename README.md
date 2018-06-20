@@ -10,10 +10,8 @@
     <ul>
     <li><a href="https://niconwo.github.io/formation/cv/">cv</a></li>
         <li><a href="https://niconwo.github.io/formation/cv2/">cv2</a></li>
-    
-      <li> <a href="https://niconwo.github.io/formation/feu/index1.html">feu tricolore premiere version </a></li>
-   
-      <li><a href="https://niconwo.github.io/formation/feu/index2.html">feu tricolore deuxieme version </a></li>
+    <li> <a href="https://niconwo.github.io/formation/feu/index.html">feu tricolore premiere version </a></li>
+   <li><a href="https://niconwo.github.io/formation/feu/index2.html">feu tricolore deuxieme version </a></li>
 <li><a href="https://niconwo.github.io/formation/feu/index3.html">feu tricolore troisieme version </a></li>
 </ul>
     
