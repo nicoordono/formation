@@ -8,7 +8,7 @@
 </head>
 <body>
     <ul>
-    <li><a href="https://niconwo.github.io/formation/cv/">cv<a></li>
+    <li><a href="https://niconwo.github.io/formation/cv/">cv</a></li>
         <li><a href="https://niconwo.github.io/formation/cv2/">cv2</a></li>
     
       <li> <a href="https://niconwo.github.io/formation/feu/index1.html">feu tricolore premiere version </a></li>
