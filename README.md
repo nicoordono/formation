@@ -17,6 +17,7 @@
         <li><a href="https://niconwo.github.io/formation/cv2/document/contrebande.json">base de donnée contrebande en json></a><li>
         <h1> autres exercices </h1>
         <li><a href="https://niconwo.github.io/formation/monsieur%20robot/index2.html">robot </a></li>
+        <li><a href="https://niconwo.github.io/formation/tableau/index.html">tableau</a></li>
     <li> <a href="https://niconwo.github.io/formation/feu/index.html">feu tricolore premiere version </a></li>
    <li><a href="https://niconwo.github.io/formation/feu/index2.html">feu tricolore deuxieme version </a></li>
 <li><a href="https://niconwo.github.io/formation/feu/index3.html">feu tricolore troisieme version </a></li>
