@@ -13,7 +13,7 @@ ctx.drawImage(myImg,70,50);
 }
 ctx.beginPath();
 ctx.arc(100,70,70,0,2*Math.PI);
-ctx.bezierCurveTo(88, 96, 87, 99, 87, 101);
+
 ctx.stroke();
 
 
