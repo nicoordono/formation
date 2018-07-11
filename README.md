@@ -24,6 +24,8 @@
        
 <li><a href="https://niconwo.github.io/formation/video/test1.html">video premiere version</a></li>
         <li><a href="https://niconwo.github.io/formation/video/test2.html">video deuxieme version</a></li>
+         <li><a href="https://niconwo.github.io/formation/video/test 3.html">video troisieme version</a></li>
+          <li><a href="https://niconwo.github.io/formation/video/test4.html">video quatrieme version</a></li>
         
 </ul>
     
