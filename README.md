@@ -33,7 +33,7 @@
     <li><a href="https://niconwo.github.io/formation/javascript/ajax/index2.html">ajax deuxieme version</a></li>
    <li><a href="https://niconwo.github.io/formation/javascript/jquery/index.html">jquery </a></li>
             <li><a href="https://niconwo.github.io/formation/javascript/canvas/canvas.html">canvas premiere version</a></li>
-                <li><a href="https://niconwo.github.io/formation/javascript/canvas/canvas2.html">canvas deuxieme version</a></li> version</a></li>
+                <li><a href="https://niconwo.github.io/formation/javascript/canvas/canvas2.html">canvas deuxieme version</a></li>
             <li><a href="https://niconwo.github.io/formation/javascript/canvas/canvas3.html">canvas multiplié</a></li>
         <li><a href="https://niconwo.github.io/formation/javascript/canvas/index.html">canvas troisieme version</a></li>
             <li><a href="https://niconwo.github.io/formation/javascript/canvas/index2.html">canvas quatrième version</a></li>
