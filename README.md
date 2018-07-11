@@ -8,6 +8,7 @@
 </head>
 <body>
     <ul>
+        <h1>cv et documents</h1>
     <li><a href="https://niconwo.github.io/formation/cv/">cv</a></li>
         <li><a href="https://niconwo.github.io/formation/cv2/">cv2</a></li>
     <li> <a href="https://niconwo.github.io/formation/feu/index.html">feu tricolore premiere version </a></li>
