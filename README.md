@@ -40,6 +40,7 @@
            <li><a href="https://niconwo.github.io/base/base2.php">base de donnée 2</a></li>
             <li><a href="https://niconwo.github.io/base/contrebande.php">base de donnée contrebande</a></li>
         <h1> autre </h1>
+        <li><a href="https://niconwo.github.io/formation/boostrap/index.html">bootstrap test</a></li>
             <li><a href="https://niconwo.github.io/formation/persona/jennifer.pdf">persona jennifer</a></li>
         <li><a href="https://niconwo.github.io/formation/html/acceuil.html">premier site web</a></li>
             </ul>  
