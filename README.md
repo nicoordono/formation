@@ -26,6 +26,7 @@
         <li><a href="https://niconwo.github.io/formation/video/test2.html">video deuxieme version</a></li>
          <li><a href="https://niconwo.github.io/formation/video/test 3.html">video troisieme version</a></li>
           <li><a href="https://niconwo.github.io/formation/video/test4.html">video quatrième version</a></li>
+          <li><a href="https://niconwo.github.io/php/structures/villes/index.php">php villes</a></li>
         
 </ul>
     
