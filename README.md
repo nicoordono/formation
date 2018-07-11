@@ -26,7 +26,7 @@
          <li><a href="https://niconwo.github.io/formation/macbeth/acceuil.html">macbeth</a></li>
         <li><a href="https://niconwo.github.io/formation/macbeth/acceuil2.html">macbeth deuxime version</a></li>
         <li><a href="https://niconwo.github.io/formation/macbeth/acceuil3.html">macbeth troisieme version</a></li>
-<li><a href="https://niconwo.github.io/formation/video/test1.html">video premiere version</a></li>
+<li><a href="https://niconwo.github.io/formation/video/test.html">video premiere version</a></li>
         <li><a href="https://niconwo.github.io/formation/video/test2.html">video deuxieme version</a></li>
          <li><a href="https://niconwo.github.io/formation/video/test 3.html">video troisieme version</a></li>
           <li><a href="https://niconwo.github.io/formation/video/test4.html">video quatrième version</a></li>
