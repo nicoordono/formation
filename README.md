@@ -39,11 +39,6 @@
             <li><a href="https://niconwo.github.io/base/contrebande.php">base de donnée contrebande</a></li>
         <h1> autre </h1>
             <li><a href="https://niconwo.github.io/formation/persona/jennifer.pdf">persona jennifer</a></li>
-            
-          
-        
-</ul>
-    
-    
+            </ul>  
 </body>
 </html>
