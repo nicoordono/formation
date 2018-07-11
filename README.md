@@ -18,9 +18,9 @@
         <li><a href="https://niconwo.github.io/formation/javascript/ajax/index.html">ajax</a></li>
     <li><a href="https://niconwo.github.io/formation/javascript/ajax/index2.html">ajax deuxieme version</a></li>
    <li><a href="https://niconwo.github.io/formation/javascript/jquery/index.html">jquery </a></li>
-         <li><a href="https://niconwo.github.io/formation/javascript/macbeth/acceuil.html">macbeth</a></li>
-        <li><a href="https://niconwo.github.io/formation/javascript/macbeth/acceuil2.html">macbeth deuxime version</a></li>
-        <li><a href="https://niconwo.github.io/formation/javascript/macbeth/acceuil3.html">macbeth troisieme version</a></li>
+         <li><a href="https://niconwo.github.io/formation/macbeth/acceuil.html">macbeth</a></li>
+        <li><a href="https://niconwo.github.io/formation/macbeth/acceuil2.html">macbeth deuxime version</a></li>
+        <li><a href="https://niconwo.github.io/formation/macbeth/acceuil3.html">macbeth troisieme version</a></li>
        
 <li><a href="https://niconwo.github.io/formation/video/test1.html">video premiere version</a></li>
         <li><a href="https://niconwo.github.io/formation/video/test2.html">video deuxieme version</a></li>
