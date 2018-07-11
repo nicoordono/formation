@@ -11,7 +11,7 @@
         <h1>cv et documents</h1>
     <li><a href="https://niconwo.github.io/formation/cv/">cv</a></li>
         <li><a href="https://niconwo.github.io/formation/cv2/">cv2</a></li>
-        <li><a href="https://niconwo.github.io/formation/cv2/document/mémoire.pdf">memoire d'histoire></a></li>
+        <li><a href="https://niconwo.github.io/formation/cv2/document/mémoire.pdf">memoire d'histoire</a></li>
         <li><a href="https://niconwo.github.io/formation/cv2/document/contrebande.pdf">base de donnée contrebande</a></li>
         <li><a href="https://niconwo.github.io/formation/cv2/document/contrebande.sql">base de donnée contrebande sql</a></li>
         <li><a href="https://niconwo.github.io/formation/cv2/document/contrebande.json">base de donnée contrebande en json</a><li>
