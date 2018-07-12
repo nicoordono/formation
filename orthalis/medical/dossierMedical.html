@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="icon" href="img/favicon.ico">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Alegreya+Sans|El+Messiri|Tenor+Sans">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.10/css/all.css" integrity="sha384-+d0P83n9kaQMCwj8F4RJB66tzIwOKmrdb46+porD/OvrJ+37WqIM7UoBtwHO6Nlg"
+        crossorigin="anonymous">
+    <title>Dossier médical</title>
+</head>
+
+<body>
+    <!-- Barre en-tête ------------------------------------------------------------------------------------ -->
+    <header>
+        <section class="cachee"></section>
+        <article id="burger">
+            <div></div>
+            <div></div>
+            <div></div>
+        </article>
+    </header>
+    <!-- Barre de navigation ------------------------------------------------------------------------------ -->
+    <nav class="neutre">
+        <!-- Profil utilisateur -->
+        <section id="profil">
+            <img src="img/utilisateur.jpg" alt="">
+            <h1>Laura</h1>
+            <h2>Satana</h2>
+        </section>
+        <!-- Navigation -->
+        <section id="navigation">
+            <a href="accueil.html">
+                <span>
+                    <i class="fas fa-home"></i>
+                </span>
+                <p>Accueil</p>
+            </a>
+            <a href="cabinet.html">
+                <span>
+                    <i class="fas fa-hospital-alt"></i>
+                </span>
+                <p>Notre cabinet</p>
+            </a>
+            <!-- <a href="chat.html">
+                <span><i class="fas fa-comment"></i></span>
+                <p>Chat</p>
+            </a>
+            <a href="rdv.html">
+                <span><i class="fas fa-calendar-plus"></i></span>
+                <p>Prendre RDV</p>
+            </a> -->
+            <a href="profil.html">
+                <span>
+                    <i class="fas fa-user"></i>
+                </span>
+                <p>Mon profil</p>
+            </a>
+            <a href="dossierMedical.html">
+                <span>
+                    <i class="fas fa-archive"></i>
+                </span>
+                <p>Dossier médical</p>
+            </a>
+            <a href="parametres.html">
+                <span>
+                    <i class="fas fa-cogs"></i>
+                </span>
+                <p>Paramètres</p>
+            </a>
+        </section>
+        <!-- Pas touche au javascript !-->
+        <script src="js/navigation.js"></script>
+    </nav>
+    <!-- MAIN / Dossier Médical ---------------------------------------------------------------- -->
+    <main>
+        <section class="top">
+            <img id="foto" src="img/vague3.svg">
+            <div class="grocercle2">
+                <img id="img" src="img/utilisateur.jpg">
+            </div>
+        </section>
+
+        <section class="top">
+            <article>
+                <h1 align="center"> Dossier Médical de Laura</h1>
+            </article>
+            <button class="accordion" id="paiements">Historique des paiements</button>
+            <div class="panel">
+                <!-- <select> -->
+                <ul>
+                    <li>
+                        <i class="fas fa-spinner fa-2x"></i>Facture du 05/05/18</li>
+                    <li>
+                        <i class="fas fa-file-pdf fa-2x"></i>Facture du 05/02/18</li>
+                    <li>
+                        <i class="fas fa-file-pdf fa-2x"></i>Facture du 05/03/18</li>
+                    <li>
+                        <i class="fas fa-file-pdf fa-2x"></i>Facture du 05/04/18</li>
+                </ul>
+                <!-- <option > 4/12 600€</option>
+                       <option>remboursement validé</option>
+                       <option>paiement initial 200€</option> -->
+                <!-- </select> -->
+                <!-- <select>
+                       <option>4/12 600€</option>
+                       <option>remboursement validé</option>
+                       <option>paiement initial 200€</option>
+                   </select> -->
+                <!-- <select>
+                       <option>4/12 500€</option>
+                       <option>remboursement validé</option>
+                       <option>paiement initial 200€</option>
+                   </select> -->
+            </div>
+
+            <button class="accordion" id="rendez_vous">Historique des rendez-vous</button>
+
+            <div class="panel">
+
+                <ul>
+                    <li>
+                        <i class="fas fa-file-pdf fa-2x"></i>Compte-rendu du 05/05/18</li>
+                    <li>
+                        <i class="fas fa-file-pdf fa-2x"></i>Facture du 05/02/18</li>
+                    <li>
+                        <i class="fas fa-file-pdf fa-2x"></i>Facture du 05/03/18</li>
+                    <li>
+                        <i class="fas fa-file-pdf fa-2x"></i>Facture du 05/04/18</li>
+                </ul>
+            </div>
+
+        </section>
+        <section id="solde">
+            <p>RESTE A PAYER : 254,40€</p>
+        </section>
+
+
+    </main>
+
+    <script src="js/accordeon.js"></script>
+</body>
+
+</html>
