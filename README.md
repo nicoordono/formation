@@ -31,6 +31,12 @@
         <h1> javascript </h1>
                 <li><a href="https://niconwo.github.io/formation/javascript/ajax/index.html">ajax</a></li>
     <li><a href="https://niconwo.github.io/formation/javascript/ajax/index2.html">ajax deuxieme version</a></li>
+           <li><a href="https://niconwo.github.io/formation/javascript/calculatrice/index.html">calculatrice première version</a></li>
+                   <li><a href="https://niconwo.github.io/formation/javascript/calculatrice/index2.html">calculatrice deuxième version</a></li>
+                   <li><a href="https://niconwo.github.io/formation/javascript/calculatrice/index3.html">calculatrice troisième version</a></li>
+                   <li><a href="https://niconwo.github.io/formation/javascript/calculatrice/index4.html">calculatrice quatrième version</a></li>
+         <li><a href="https://niconwo.github.io/formation/javascript/calculatrice/CALCULATRICE.html">calculatrice dernier version
+
    <li><a href="https://niconwo.github.io/formation/javascript/jquery/index.html">jquery </a></li>
         <li><a href="https://niconwo.github.io/formation/javascript/horloge/index1.html">horloge</a></li>
         <li><a href="https://niconwo.github.io/formation/javascript/horloge/index2.html">horloge 2</a></li>
