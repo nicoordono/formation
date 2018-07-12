@@ -1,0 +1,11 @@
+.conteneur{
+    height: 500px;
+    width: 100px;
+    border: solid black;
+}
+input{
+    display: inline-block;
+    height: 30%;
+    width: 50px;
+
+}
