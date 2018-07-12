@@ -1,0 +1,104 @@
+body {
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    background:rgb(37, 37, 37);
+}
+
+.grocercle img{
+	height:20vh;
+	width:20vh;
+	border-radius: 50%;
+	position: relative;
+    box-shadow: 0 0 0 25px rgba(126, 214, 223, 0.5);
+}
+
+h1 {
+    margin-top: 8vh;
+    margin-left: 2vh;
+    margin-right: 2vh;
+    text-align: center;
+    font-size: 3vh;
+    color: #eeF1F5;
+    font-family: 'Monserrat',sans-serif,Arial, Helvetica, sans-serif;
+}
+
+form {
+    display: flex;
+    flex-direction: flex-wrap;
+    margin: 0 auto;
+    width: 50vw;
+    /*border: 1px solid #CCC;*/
+    border-radius: 1em;
+}
+
+input{
+    
+    border: none;
+    /* border: 2px solid rgba(126, 214, 223, 0.5);  */
+    background-color: rgba(67,95,113,0.5);
+    height: 6vh;
+    /* box-shadow: 8px 5px 8px rgba(8, 46, 44, 0.8); */
+    color: #eeF1F5;
+    text-align: center;
+}
+
+#motdepasse {
+    background-color: #F2845C;
+}
+
+section {
+    margin: auto;
+    display: flex;
+	flex-direction: column;
+	align-content: center;
+	align-items: center;
+}
+
+/* 126, 214, 223 */
+button {
+    height: 4vh;
+    width: 20vh; 
+    border: none;
+    background-color: #eeF1F5;
+    color: rgb(54, 129, 126);
+    border-radius: 5px;
+    
+}
+.bouton {
+    height: 4vh;
+    width: 20vh; 
+    border: none;
+    background-color: #eeF1F5;
+    color: rgb(54, 129, 126);
+    border-radius: 5px;
+    text-decoration:none;
+    text-align: center;
+    padding-top: 1.2vh;
+    font-size: small;
+    
+}
+div a {
+    text-decoration: none;
+}
+
+/*label{
+    color: white;
+    font-family: 'Monserrat',sans-serif,Arial, Helvetica, sans-serif;
+}*/
+
+input:focus {
+   /* border-color: rgb(54, 228, 190);*/
+   border: none;
+}
+button:hover{
+    /* border-color: #0c4128; */
+    border: none;  
+}
+
+@media screen and (max-width: 650px) {
+    form {
+        width: 80%;
+    }
+}

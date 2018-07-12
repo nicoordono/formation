@@ -1,0 +1,700 @@
+html,body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+    font-size: 100%; 
+    /* Theme de couleurs utilisé */
+    --colorNav: #435f71;
+    --colorBlue: #57CCC6;
+    --colorSection: #ffff;
+    --colorNotif: #f3a273;
+    --colorNotifImg: #e66131;
+    /* Couleurs intéressantes */
+    --colorBody: #eef1f5;
+}
+
+h1 {
+    /* font-family: 'Alegreya Sans'; 
+        font-family: 'El Messiri';
+        font-family: 'Tenor Sans';
+        font-family: 'Tenor Sans';
+    */
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    font-size : 1em;
+    color: black;
+}
+    /* HEADER / Barre en-tête ------------------------------------------------------------------------------------ */
+    header {
+        width: 100%;
+        height: 10vh;
+        top: 0;
+        position: fixed;
+        z-index: 3; /* über alles */
+        display: flex;
+        justify-content: flex-start;
+    }
+        header section {
+            width: 100%;
+            height: 100%;
+            background: black;
+            position: fixed;
+            z-index: 1; /* En dessous du menu glissant */
+            transition: opacity 1s;
+        }
+        header .cachee {
+            opacity: 0;
+            visibility: hidden;
+        }
+        header .visible {
+            opacity: 0.7;
+            visibility: visible;
+        }
+        header #burger {
+            width: 8vh;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            margin: 2vh 2vh 2vh 2vh;
+
+        }
+            header #burger div {
+                width: 100%;
+                height: 1vh;
+                margin: 0.4vh;
+                background: white;
+                box-shadow: grey 1px 1px 0px;
+            }
+    /* NAV / Barre de navigation -------------------------------------------------------------------------------- */
+    nav {
+        background: var(--colorNav);
+        height: 100%;
+        top: 0;
+        z-index: 3; /* über alles */
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        text-align: center;
+        position: fixed;
+        transition: transform 0.5s;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+        nav p {
+            font-family: Arial, Helvetica, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        .neutre{
+            width: 17%;
+        }
+        .mobile {
+            width: 80%;
+            transform: translateX("0%");
+        }
+        /* Section profil */
+        nav #profil {
+            height: 40vh;
+            margin: 5vh 15% 5vh 15%;
+            display: flex;
+            justify-content: center;
+            flex-direction: column;
+        }
+            nav #profil h1,h2 {
+                color: white;
+                font-size: 1.5em;
+                font-family: Arial, Helvetica, sans-serif;
+                padding: 0;
+                margin: 0;
+            }
+            nav #profil h2 {
+                color: #e7e7e7;
+                font-size: 1.2em;
+            }
+            nav #profil img {
+                height: 20vh;
+                align-self: center;
+                margin-bottom: 2vh;
+                border-radius: 10%;
+            }
+        /* Section navigation */
+        nav #navigation {
+            height: 60vh;
+        }
+            nav #navigation a {
+                display: flex;
+                justify-content: space-between;
+                color: #e7e7e7;
+                text-decoration: none;
+                font-family: fantasy;
+                font-size: 1.2em;
+                padding: 1.5vh 10% 1.5vh 10%; /* A modifier quand il n'y aura plus les menus temporaires ! */
+            }
+            nav #navigation a.active {
+                background-color: #0022bb;
+                color: white;
+            }
+    /* MAIN / Conteneur principal des pages ------------------------------------------------------------------- */
+    main {
+        background: var(--colorBody);
+        display: flex;
+        flex-direction: column;
+        align-content: center;
+        align-items: center;
+        width: 100%;
+        margin: 0;
+        padding: 0;
+    }
+        main section {
+            background: var(--colorSection);
+            display: flex;
+            align-content: center;
+            align-items: center;
+            width: 90%;
+            margin-top: 2vh;
+            flex-direction: column; 
+        }
+            main section article {
+                width: 90%;
+                margin: 10px 1px;
+                padding: 10px 5px;
+            }
+            /* BUTTON / Les boutons --------------------------------------------------------------------------- */
+            main section .general {
+                height : 100%;
+                color : rgb(252, 200, 165);
+                background :#57CCC6;
+                border-radius : 50%;        
+                padding: 2vh;
+                border : none;
+                box-shadow: 2px 2px 4px #435f71;
+                text-shadow: 2px 2px 4px #435f71;;
+            }
+            main section .valider {
+                height : 100%;
+                color : rgb(252, 200, 165);
+                background :#57CCC6;
+                border-radius : 50%;        
+                padding: 2vh;
+                border : none;
+            }
+            /* FORM / Les formulaires ------------------------------------------------------------------------- */
+            main section form {
+
+            }
+            /* DIV / Début des CSS spécifiques aux pages ------------------------------------------------------ */
+            main section div {
+
+            }
+/* MAIN / Accueil : ------------------------------------------------------------------- */
+.annulerBody {
+    background: var(--colorSelection);
+}
+.wave {
+    background: linear-gradient(to right, var(--colorNav), var(--colorBlue));
+	height:40vh;
+	width:100%;
+    position: relative;
+    overflow: hidden;
+}
+    .wave img {
+        position: absolute;
+        left: -2%;
+        bottom: -1%;
+        width: 105%;
+    }
+
+.grocercle {
+	height: 20vh;
+	width: 20vh;
+	border-radius: 50%;
+	margin: auto;
+	position: relative;
+    top: 5%;
+    box-shadow: 0 0 0 25px rgba(22, 79, 85, 0.4);
+	background-image: url("../img/accueil.jpg");
+	background-size: 20vh;
+}
+
+#titreCabinet {
+display: flex;
+flex-direction: row;
+justify-content: center;
+width: 100%;
+}
+#titreCabinet img {
+    border-radius: 50%;
+    width: 10vh;
+    margin-left: auto;
+}
+#titreCabinet h1 {
+    margin-left: 2%;
+    margin-right: auto;
+}
+
+/* Notifications */
+#notifications {
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding: 0;
+    margin-top: 5vh;
+    margin-bottom: 5vh;
+    padding: 1vh;
+}
+    #notifications article {
+        background: var(--colorNotif);
+        box-shadow: rgb(199, 199, 199) 0px 4px 4px;
+        display: flex;
+        justify-content: space-between;
+        width: 100%;
+        margin: 0.5vh;
+        padding: 0;
+        height: 10vh;
+    }
+    #notifications .blocImage {
+        display: flex;
+        justify-content: center;
+        height: 100%;
+        background: var(--colorNotifImg);
+    }
+    #notifications .blocImage img{
+        margin: auto;
+        border-radius: 100%;
+        height: 90%;
+        background: var(--colorNotifImg);
+    }
+    #notifications .blocTexte {
+        height: 100%;
+        width: 80%;
+    }
+    #notifications .blocTexte1 {
+        height: 80%;
+        width:5.5%;
+        background-color: red;
+        margin-bottom: 5px;
+        text-align: center;
+        font-size: 12px;
+        color:yellow;
+        border:2px solid grey;
+    }
+    #notifications .blocTexte p{
+        color: white;
+        margin: 2% 2% 2% 2%;
+        font-family: 'Montserrat';
+        font-size: 1em;
+    }
+/* MAIN / cabinet : ------------------------------------------------------------------- */
+/* En-Tête image */
+.headerImage {
+    width: 100%;
+}
+    .headerImage img{
+        width: 100%;
+    }
+
+/* Slideshow container */
+.slideshow-containerProfil {
+    width: 90%;
+    height: 40vh;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin-top: 5%;
+  }
+    .slideshow-containerProfil img{
+        width: 100%;
+    }
+.slideshow-container {
+    width: 90%;
+    height: 50vh;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin-top: 5%;
+  }
+    .slideshow-container img {
+        width: 20vh;
+        height: 20vh;
+        border-radius: 50%;
+
+        
+    }
+    /* Caption text */
+    .slideshow-container .text {
+        color: black;
+        margin: 5%;
+    }
+
+    /* Next & previous buttons */
+    .prev, .next {
+        cursor: pointer;
+        position: absolute;
+        top: 50%;
+        width: auto;
+        padding: 16px;
+        margin-top: -94px;
+        color: grey;
+        font-weight: bold;
+        font-size: 18px;
+        transition: 0.6s ease;
+        border-radius: 0 3px 3px 0;
+    }
+  
+    /* Position the "next button" to the right */
+    .next {
+        right: 0;
+        border-radius: 3px 0 0 3px;
+    }
+
+  
+  
+  /* Number text (1/3 etc) */
+  .numbertext {
+    color: #f2f2f2;
+    font-size: 12px;
+    padding: 8px 12px;
+    position: absolute;
+    top: 0;
+  }
+  
+  /* The dots/bullets/indicators */
+  .dot {
+    cursor: pointer;
+    height: 15px;
+    width: 15px;
+    margin: 0 2px;
+    background-color: var(--colorBody);
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+  }
+  
+  .active, .dot:hover {
+    background-color: var(--colorNav);
+  }
+  
+  /* Fading animation */
+  .fade {
+    -webkit-animation-name: fade;
+    -webkit-animation-duration: 1.5s;
+    animation-name: fade;
+    animation-duration: 1.5s;
+  }
+  
+  @-webkit-keyframes fade {
+    from {opacity: .4} 
+    to {opacity: 1}
+  }
+  
+  @keyframes fade {
+    from {opacity: .4} 
+    to {opacity: 1}
+  }
+
+
+/*CSS du horaire*/
+.textcentre {
+    text-align: center;
+    background-color: #57CCC6;
+    box-shadow: 0px 5px 5px #435f71;
+    font-size: 0.9em;
+}
+.horaire {
+    text-align: center;
+    background-color: #57CCC6;
+    box-shadow: 0px 5px 5px #435f71;
+    font-size: 0.9em;
+    margin-bottom: 2vh;
+}
+.localisationcentre{
+    justify-content: space-around;
+}
+
+.footer_bouton{
+    flex-direction: row;
+    justify-content: space-around;
+    margin-bottom: 2vh;
+    background: none;
+}
+
+/* MAIN / dossier médical ------------------------------------------------------------------- */
+.top {
+    width: 100%;
+    margin-top: 0;
+}
+.accordion {
+    background-color: var(--colorNotif);
+    color: #444;
+    cursor: pointer;
+    padding: 16px;
+    width: 100%;
+    text-align: center;
+    border: none;
+    outline: none;
+    transition: 0.4s;
+}
+
+.grocercle2 img{
+    height:20vh;
+    width:20vh;
+    border-radius: 50%;
+    position: relative;
+    box-shadow: 0 0 0 25px rgba(126, 214, 223, 0.5);
+    background-size: 20vh;
+}
+
+/* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
+.active, .accordion:hover {
+    background-color: var(--colorNotifImg);
+}
+/* Style the accordion panel. Note: hidden by default */
+.panel {
+    padding: 0 18px;
+    background-color: white;
+    display: none;
+    overflow: hidden;
+    border: none;
+} 
+    .panel select{
+        display:flex;
+        border-radius: 0;
+        border: 0.4 px solid #444;
+    }
+    .panel button{
+        display: block;
+    }
+
+    .panel option {
+        background-color: var(--colorNotif);
+    }
+
+    .panel li {
+        list-style-type: none;
+        padding: 10px;
+        font-size: 0.7em;
+        padding-right: 40px;
+    }
+
+#solde {
+    width: 100%;
+    text-align: center;
+    background-color:  #435f71;
+    color :  #eef1f5;
+}
+
+#foto {
+    left: -2%;
+    bottom: -1%;
+    width: 100%;
+}
+
+/* MAIN / profil ------------------------------------------------------------------- */
+/*code du form et de ses composant */
+.nomarg {
+    margin:0% 0% 2vh 0%;
+    padding: 0%;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    align-items: center;
+    border-radius: 3px;
+    background: var(--colorBlue);
+    font-family: 'Montserrat', sans-serif;
+    font-size: 0.8em;
+}
+    .nomarg form {
+        margin:0%;
+        padding: 5px 0px;
+        
+    }
+    .nomarg button {
+        padding:5px 10px;
+        margin-left: 15px;
+        border: none;
+        background: #f2845c;
+        cursor: pointer;
+        border-radius: 3px;
+        color: white;
+        box-shadow: 0 3px 6px 0 rgba(0,0,0,0.2);
+    }
+        
+    .nomarg input {
+        border: none;
+        margin-bottom: 5px;
+    }
+
+.masquer {
+   display:none;
+}
+.bold {
+    font-weight: bold;
+}
+#centerImg {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    align-items: center;
+}
+#profilImg {
+    min-width: 200px;
+    max-width: 200px;
+    border-radius: 50%;
+}
+#afficher:target #modif {
+   display:block
+}
+
+#tel, #nf, #preNom {
+    font-size: 1.5em;
+    margin: 0%;
+}
+#numTel:focus {
+    border: 2px solid rgb(47, 216, 235);
+}
+#tel a {
+    color: black;
+}
+#modif {
+    display:none;
+    margin-top: 10px;
+ }
+ #afficher:target .masquer {
+    display:inline;
+ }
+ #afficher:target .afficher {
+    display:none;
+ }
+
+ #nomFam:focus {
+    border: 2px solid rgb(47, 216, 235);
+}
+ #nf a {
+    color: black;
+ }
+ #modif2 {
+    display:none;
+    margin-top: 10px;
+ }
+ #afficher2:target #modif2 {
+    display:block
+ }
+ .masquer {
+    display:none;
+ }
+ #afficher2:target .masquer {
+    display:inline;
+ }
+ #afficher2:target .afficher {
+    display:none;
+ }
+
+ #prenom:focus {
+    border: 2px solid rgb(47, 216, 235);
+}
+ #preNom a {
+    color: black;
+ }
+ #modif3 {
+    display:none;
+    margin-top: 10px;
+ }
+ #afficher3:target #modif3 {
+    display:block
+ }
+ .masquer {
+    display:none;
+ }
+ #afficher3:target .masquer {
+    display:inline;
+ }
+ #afficher3:target .afficher {
+    display:none;
+ }
+
+ @media screen and (max-width: 1100px) {
+    #profilImg {
+        min-width: 150px;
+        max-width: 150px;
+    }
+ }
+ @media screen and (min-width: 500px) {
+    #profilImg {
+        min-width: 150px;
+        max-width: 150px;
+    }
+ }
+ @media screen and (min-width: 1101px) {
+     #profilImg {
+        min-width: 200px;
+        max-width: 200px;
+        margin-left: 40px;
+     }
+     .titre2 {
+         top: 35px;
+     }
+ }
+/*code du form et de ses composant */   
+
+#slider {
+width:99%;
+}      
+@media screen and (max-width: 360px) {
+#slider {
+width:90%;
+}
+}
+@media screen and (min-width: 361px) {
+#slider {
+width:80%;
+}
+}
+@media screen and (min-width: 530px) {
+#slider {
+width:70%;
+}
+}
+@media screen and (min-width: 600px) {
+#slider {
+width:60%;
+}
+}
+@media screen and (min-width: 650px) {
+#slider {
+width:50%;
+}
+}
+@media screen and (min-width: 750px) {
+#slider {
+width:40%;
+}
+}
+
+/* MEDIA / Adaptation à la taille d'écran ------------------------------------------------------------------------- */
+/* Smartphone */
+@media screen and (max-width: 1100px) {
+    .neutre{
+        transform: translateX(-100%);
+        width: 80%;
+    }
+    main {
+        margin-left: 0;
+        transition: margin-left 1s;
+    }
+    main section {
+        flex-direction: column;
+    }
+}
+/* Tablette */
+@media screen and (min-width: 1101px) {
+    .neutre{
+        transform: translateX(0%);
+        width: 17%;
+    }
+    main {
+        width: 83%;
+        margin-left: 17%;
+        transition: margin-left 1s;
+    }
+}
