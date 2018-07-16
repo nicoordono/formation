@@ -8,6 +8,13 @@
 </head>
 <body>
     <?php
+    $GithubRawURI="https://raw.githubusercontent.com/niconwo/formation/master/php/variables/TabAso/index.php";
+    $ch = curl_init();
+curl_setopt($ch, CURLOPT_URL, $GithubRawURI);
+curl_setopt($ch, CURLOPT_SSL_VERIFYPEER, false);
+curl_setopt($ch, CURLOPT_RETURNTRANSFER, 1);
+$data = curl_exec($ch);
+curl_close($ch);
     $activites = array("Lundi"=>"Php","Mardi"=>"Javascript", "Mercredi"=>"Typescript","Jeudi"=>"Angular","Vendredi"=>"SQL","Samedi"=>"Python","Dimanche"=>"Tout");
     //deux dimensions
     $pierre = array("1"=>"Php","2"=>"Javascript","3"=>"Python");
