@@ -33,7 +33,6 @@
    <li><a href="https://niconwo.github.io/formation/javascript/algo/exerciceAlgo/ex1/indexalgo.html">algo exercice 1</a></li>
    <li><a href="https://niconwo.github.io/formation/javascript/algo/exerciceAlgo/ex2/index.html">algo exercice 2</a></li>
            <li><a href="https://niconwo.github.io/formation/javascript/algo/exerciceAlgo/ex3/index.html">algo exercice 3</a></li>
-
                 <li><a href="https://niconwo.github.io/formation/javascript/ajax/index.html">ajax</a></li>
     <li><a href="https://niconwo.github.io/formation/javascript/ajax/index2.html">ajax deuxieme version</a></li>
            <li><a href="https://niconwo.github.io/formation/javascript/calculatrice/index.html">calculatrice première version</a></li>
@@ -41,7 +40,6 @@
                    <li><a href="https://niconwo.github.io/formation/javascript/calculatrice/index3.html">calculatrice troisième version</a></li>
                    <li><a href="https://niconwo.github.io/formation/javascript/calculatrice/index4.html">calculatrice quatrième version</a></li>
          <li><a href="https://niconwo.github.io/formation/javascript/calculatrice/CALCULATRICE.html">calculatrice dernier version
-
    <li><a href="https://niconwo.github.io/formation/javascript/jquery/index.html">jquery </a></li>
         <li><a href="https://niconwo.github.io/formation/javascript/horloge/index1.html">horloge</a></li>
         <li><a href="https://niconwo.github.io/formation/javascript/horloge/index2.html">horloge 2</a></li>
