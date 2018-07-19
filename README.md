@@ -30,6 +30,9 @@
 <li><a href="https://niconwo.github.io/formation/video/test.html">video premiere version</a></li>
           <li><a href="https://niconwo.github.io/formation/video/test4.html">video deuxième version</a></li>
         <h1> javascript </h1>
+   <li><a href="https://niconwo.girhub.io/formation/javascript/algo/exerciceAlgo/ex1/index.html">algo exercice 1</a></li>
+   <li><a href="https://niconwo.girhub.io/formation/javascript/algo/exerciceAlgo/ex2/index.html">algo exercice 2</a></li>
+
                 <li><a href="https://niconwo.github.io/formation/javascript/ajax/index.html">ajax</a></li>
     <li><a href="https://niconwo.github.io/formation/javascript/ajax/index2.html">ajax deuxieme version</a></li>
            <li><a href="https://niconwo.github.io/formation/javascript/calculatrice/index.html">calculatrice première version</a></li>
