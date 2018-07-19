@@ -1,0 +1,10 @@
+var A= 3;
+alert(A);
+var B = 5;
+alert (B);
+var C = A + B;
+alert (C);
+var A = 2;
+alert(A);
+var C = B- A;
+alert (C);
