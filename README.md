@@ -38,6 +38,17 @@
            <li><a href="https://niconwo.github.io/formation/javascript/algo/exerciceAlgo/ex7/index.html">algo exercice 7</a></li>
            <li><a href="https://niconwo.github.io/formation/javascript/algo/exerciceAlgo/ex8/index.html">algo exercice 8</a></li>
            <li><a href="https://niconwo.github.io/formation/javascript/algo/exerciceAlgo/ex9/index.html">algo exercice 9</a></li>
+         <li><a href="https://niconwo.github.io/formation/javascript/algo/exerciceAlgo/ex10/index.html">algo exercice 10</a></li>
+           <li><a href="https://niconwo.github.io/formation/javascript/algo/exerciceAlgo/ex11/indexalgo.html">algo exercice 11</a></li>
+   <li><a href="https://niconwo.github.io/formation/javascript/algo/exerciceAlgo/ex12/index.html">algo exercice 12</a></li>
+           <li><a href="https://niconwo.github.io/formation/javascript/algo/exerciceAlgo/ex13/index.html">algo exercice 13</a></li>
+           <li><a href="https://niconwo.github.io/formation/javascript/algo/exerciceAlgo/ex14/index.html">algo exercice 14</a></li>
+           <li><a href="https://niconwo.github.io/formation/javascript/algo/exerciceAlgo/ex15/index.html">algo exercice 15</a></li>
+           <li><a href="https://niconwo.github.io/formation/javascript/algo/exerciceAlgo/ex16/index.html">algo exercice 16</a></li>
+           <li><a href="https://niconwo.github.io/formation/javascript/algo/exerciceAlgo/ex17/index.html">algo exercice 17</a></li>
+           <li><a href="https://niconwo.github.io/formation/javascript/algo/exerciceAlgo/ex18/index.html">algo exercice 18</a></li>
+           <li><a href="https://niconwo.github.io/formation/javascript/algo/exerciceAlgo/ex19/index.html">algo exercice 19</a></li>
+         <li><a href="https://niconwo.github.io/formation/javascript/algo/exerciceAlgo/ex20/index.html">algo exercice 20</a></li>
                 <li><a href="https://niconwo.github.io/formation/javascript/ajax/index.html">ajax</a></li>
     <li><a href="https://niconwo.github.io/formation/javascript/ajax/index2.html">ajax deuxieme version</a></li>
            <li><a href="https://niconwo.github.io/formation/javascript/calculatrice/index.html">calculatrice première version</a></li>
