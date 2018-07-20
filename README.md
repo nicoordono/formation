@@ -34,6 +34,10 @@
            <li><a href="https://niconwo.github.io/formation/javascript/algo/exerciceAlgo/ex3/index.html">algo exercice 3</a></li>
            <li><a href="https://niconwo.github.io/formation/javascript/algo/exerciceAlgo/ex4/index.html">algo exercice 4</a></li>
            <li><a href="https://niconwo.github.io/formation/javascript/algo/exerciceAlgo/ex5/index.html">algo exercice 5</a></li>
+           <li><a href="https://niconwo.github.io/formation/javascript/algo/exerciceAlgo/ex6/index.html">algo exercice 6</a></li>
+           <li><a href="https://niconwo.github.io/formation/javascript/algo/exerciceAlgo/ex7/index.html">algo exercice 7</a></li>
+           <li><a href="https://niconwo.github.io/formation/javascript/algo/exerciceAlgo/ex8/index.html">algo exercice 8</a></li>
+           <li><a href="https://niconwo.github.io/formation/javascript/algo/exerciceAlgo/ex9/index.html">algo exercice 9</a></li>
                 <li><a href="https://niconwo.github.io/formation/javascript/ajax/index.html">ajax</a></li>
     <li><a href="https://niconwo.github.io/formation/javascript/ajax/index2.html">ajax deuxieme version</a></li>
            <li><a href="https://niconwo.github.io/formation/javascript/calculatrice/index.html">calculatrice première version</a></li>
