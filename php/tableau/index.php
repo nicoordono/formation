@@ -10,6 +10,8 @@
    
  <?php
  
+phpinfo(); 
+
  /** I create the array 
  * je crée un tableau
  * yo creo un mesa 
