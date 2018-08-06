@@ -75,7 +75,9 @@
         <li><a href="https://niconwo.github.io/formation/boostrap/index.html">bootstrap test</a></li>
             <li><a href="https://niconwo.github.io/formation/persona/jennifer.pdf">persona jennifer</a></li>
         <li><a href="https://niconwo.github.io/formation/html/acceuil.html">premier site web</a></li>
-        <li><a href="https://niconwo.github.io/formation/orthalis/medical/dossierMedical.html">première expèrience sur un projet: orthalis </a></li>
+        <li><a href="https://niconwo.github.io/formation/orthalis/medical/dossierMedical.html">première expèrience sur un projet: orthalis 
+            </a>
+             </li>
             </ul>  
 </body>
 </html>
